@@ -62,8 +62,6 @@ class _BookRecommenderState extends State<BookRecommender> {
                     Text(Booksuggestions[input]!),
                   ],
                 ),
-
-                //children: [
                 Row(children: [
                   Container(
                       margin: EdgeInsets.only(left: 60, right: 50),
@@ -77,46 +75,46 @@ class _BookRecommenderState extends State<BookRecommender> {
                               children: <Widget>[
                                 ElevatedButton(
                                   child: new Text('Young Adult'),
-                                  // color: Colors.lightGreen,
                                   onPressed: () {/** */},
                                 ),
                                 ElevatedButton(
                                   child: const Text('Mystery'),
-                                  // color: Colors.lightGreen,
                                   onPressed: () {
                                     setState(
-                                      () {
-                                        //    input = myController.text();
-                                      },
+                                      () {},
                                     );
                                     myController.clear();
                                   },
                                 ),
                                 ElevatedButton(
                                   child: const Text('Action/Thriller'),
-                                  // color: Colors.lightGreen,
                                   onPressed: () {/** */},
                                 ),
                                 ElevatedButton(
                                   child: const Text('Romance'),
-                                  // color: Colors.lightGreen,
                                   onPressed: () {/** */},
                                 ),
                                 ElevatedButton(
                                   child: const Text('Poetry'),
-                                  // color: Colors.lightGreen,
                                   onPressed: () {/** */},
                                 ),
                                 ElevatedButton(
                                   child: const Text('Classics'),
-                                  // color: Colors.lightGreen,
                                   onPressed: () {/** */},
                                 ),
                               ],
-                            ))
-                      ]))
-                ]),
-              ]),
-            ])));
+                            )
+                          )
+                        ]
+                      )
+                    )
+                  ]
+                ),
+              ]
+            ),
+          ]
+         )
+       )
+     );
   }
 }
